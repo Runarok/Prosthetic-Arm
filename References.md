@@ -31,9 +31,10 @@ This research addresses the global need for prosthetic devices by developing a f
 This project presents the design and development of an EMG-based prosthetic arm aimed at assisting individuals with paralyzed limbs. The prosthesis utilizes neuromuscular signals to estimate force and torque, facilitating the actuation of the arm and improving its functionality.  
 
 ---
+
 **Source:** [IEEE Xplore](https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&matchBoolean=true&queryText=(%22All%20Metadata%22:Prosthetic%20arm)&highlight=true&returnType=SEARCH&matchPubs=true&openAccess=true&ranges=2023_2025_Year&returnFacets=ALL)
 
-
+---
 
 
 
