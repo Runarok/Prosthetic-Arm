@@ -1,6 +1,6 @@
-﻿**Beyond Humanoid Prosthetic Hands: Modular Terminal Devices That Improve User Performance**
+## ﻿**Beyond Humanoid Prosthetic Hands: Modular Terminal Devices That Improve User Performance**
 
-**Points For the Presentation**
+### **Points For the Presentation**
 
 - **Problem:** Myoelectric prosthetic hands often lack functionality and are rejected by users due to the limitations of replicating human hand form and function.
 - **Solution:** Task-specific, modular, non-humanoid devices that replace individual fingers on a base prosthetic hand. Four devices were developed:
@@ -15,7 +15,7 @@
 - **Results:** The non-humanoid devices outperformed the humanoid prosthesis in all tasks, reducing completion time, increasing accuracy, decreasing compensatory motion, and lowering mental and physical demand. Case studies with two participants with upper limb difference (ULD) generally aligned with the control group results.
 - **Conclusion:** Task-specific, non-humanoid prostheses can significantly improve functionality, usability, and comfort compared to conventional humanoid designs, offering benefits for users' physical capabilities and social interactions.
 
-  **Points For the Understanding**
+  ### **Points For the Understanding**
 
   *Received 24 August 2024; revised 1 December 2024 and 31 December 2024; accepted 8 January 2025. Date of publication 13 January 2025; Date of current version 23 January 2025.*
 
@@ -51,9 +51,13 @@
 - **Conclusion:** Task-specific, non-humanoid terminal devices offer a promising approach to enhance prosthetic hand functionality and user satisfaction. They may also improve quality of life by facilitating social interactions.
 - **Future Work:** Further research is needed to optimize the mechanical implementation of these prostheses, explore haptic feedback, and investigate the psychological embodiment of non-humanoid prostheses.
 
-  **Prosthetic Limb Attachment via Electromagnetic Attraction Through a Closed Skin Envelope**
 
-  **Points For the Presentation**
+---
+
+
+  ## **Prosthetic Limb Attachment via Electromagnetic Attraction Through a Closed Skin Envelope**
+
+  ### **Points For the Presentation**
 
   This paper introduces a new prosthetic limb attachment method using electromagnetic attraction between a bone-anchored ferromagnetic implant and an external electromagnet, aiming to address issues with current socket-based methods.
 
@@ -71,7 +75,7 @@
 - **Significance:** Demonstrates the feasibility of electromagnetic attachment, potentially increasing comfort and improving residual limb health.
 - **Future Work:** Optimization to reduce heating during longer use. A cost function is proposed for optimization based on force, mass, and zero-current force, allowing for application-specific customization.
 
-  **Points For the Understanding**
+  ### **Points For the Understanding**
 
   *Manuscript received 16 June 2023; revised 11 September 2023 and 14 November 2023; accepted 7 December 2023. Date of publication 13 December 2023; date of current version 23 April 2024*
 
