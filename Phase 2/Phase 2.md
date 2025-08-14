@@ -164,14 +164,44 @@ Design and build a **functional, modular prosthetic arm** that:
 
 ---
 
-## **Build Strategy for Busy Students**
+# Cost Estimates (INR) — Minimum vs Maximum
 
-1. **Week 1–2:** Design & print forearm, hand, wrist coupler.
-2. **Week 3:** Install servos, tendon routing, and joystick control.
-3. **Week 4:** You now have a **working arm** with joystick.
-4. **Week 5–6:** Add EMG sensor, calibrate thresholds.
-5. **Week 7–8:** Polish design, add extra hand tools, finalize demo.
+| Component | Minimum Build (₹) | Maximum / More Reliable Build (₹) | Notes / Comparison |
+|-----------|-----------------|---------------------------------|------------------|
+| Arduino / ESP32 | 400 (Nano) | 600 (ESP32) | Nano is sufficient for single EMG channel; ESP32 adds Bluetooth logging but slightly costlier. |
+| EMG Sensor | 1,600 | 2,000 | 1 channel needed; cheaper clones may exist but reliability drops. |
+| Servo Motors (2×) | 1,600 (MG996R clone) | 2,400 (DS3218 high-torque) | MG996R cheaper but prone to burnout/jitter; DS3218 recommended for reliability. |
+| Battery (2S LiPo 2200 mAh) | 1,000 | 1,200 | Smaller capacity (1500 mAh) is cheaper but reduces runtime. |
+| 5V UBEC / Voltage Regulator | 250 | 400 | Essential for stable servo power; cheaper clones can work. |
+| Nylon Fishing Line + PTFE Tubes | 400 | 400 | Minimal cost, can reuse old spools. |
+| 3D Printing Filament | 1,600 | 2,000 | PLA+ for fast prints, PETG/Nylon for stress areas; can combine both. |
+| JST Connectors / Wire Sleeves | 250 | 400 | Optional; soldering directly is cheaper. |
+| Toggle Switch (Emergency Cut-Off) | 100 | 150 | Small cost for safety. |
+| Joystick Module | 150 | 300 | Only needed as backup; optional but low-cost. |
 
-If EMG integration takes longer than expected, that’s okay — by the midpoint, we’ll already have a functional mechanical and electronic prototype. That’s our safety net. The core system will work, and we can always switch to joystick control to ensure a successful demo.
+---
+
+### Total Cost (INR)
+- **Minimum Functional Build:** ~6,350 ₹  
+- **Maximum / Reliable Build:** ~9,850 ₹  
+
+---
+
+### Comparison Summary
+
+| Factor | Minimum | Maximum |
+|--------|--------|--------|
+| Servo reliability | Medium | High |
+| Print strength | PLA only | PLA + PETG/Nylon |
+| Control features | Nano only | ESP32 (Bluetooth optional) |
+| Risk of failure | Higher | Lower |
+| Cost | ~6,350 ₹ | ~9,850 ₹ |
+
+---
+
+**Notes:**  
+- Minimum cost assumes **bare minimum requirements** for a functional prosthetic arm.  
+- These estimates assume nothing goes wrong during printing, assembly, or electronics setup.  
+- Cost will increase if parts fail, if needed to reprint, or when decided to add more features or higher-quality components.
 
 ---
