@@ -1,0 +1,24 @@
+no,authors,year,title,publication,type
+1,"Li, H., et al.",2024,"Tactile SoftHand-A: 3D-Printed, Tactile, Highly-underactuated, Anthropomorphic Robot Hand with an Antagonistic Tendon Mechanism",arXiv preprint,Journal Article
+2,"Tian, L., et al.",2017,"The Making of a 3D-Printed, Cable-Driven, Single-Model, Lightweight Robotic Hand",Frontiers in Robotics and AI,Journal Article
+3,"Tian, L., et al.",2021,Fast 3D Modeling of Prosthetic Robotic Hands Based on a Multi-layer Design,Frontiers in Neurorobotics,Journal Article
+4,"Kurundkar, S., et al.",2023,3D Printed Robotic Arm using Hand Gestures,IEEE Conference Proceedings,Conference Paper
+5,"Lan, N., et al.",2021,Next-Generation Prosthetic Hand: from Biomimetic to Biorealistic,Frontiers in Neurorobotics,Journal Article
+6,"Zhou, X., et al.",2024,Design and Control of a Tendon-Driven Robotic Finger Based on Human Hand Biomechanics,Frontiers in Bioengineering and Biotechnology,Journal Article
+7,"Nazma, E., et al.",2012,Tendon Driven Robotic Hands: A Review,International Journal of Mechanical Engineering and Robotics Research,Review Article
+8,"Elmas, E. T., et al.",2025,Bionic Prosthetic Robotic Artificial Hand Design and Biomechanics Analysis,Engineering Technology & Applied Science Research,Journal Article
+9,"Biswal, D. R., et al.",2022,Tendon Actuated Mechanism Based Robotic Prosthetic Hand Design for Dexterous Manipulation and Grasping,Procedia Computer Science,Conference Paper
+10,"Park, H., et al.",2020,An Open-Source Anthropomorphic Robot Hand System: HRI Hand,IEEE Robotics and Automation Letters,Journal Article
+11,"Ramos, O., et al.",2023,Mechanical Assessment of Novel Compliant Mechanisms for Prosthetic Hands,Frontiers in Mechanical Engineering,Journal Article
+12,"Xu, Z., et al.",2013,Design of a Highly Biomimetic Anthropomorphic Robotic Hand,IEEE International Conference on Robotics and Automation,Conference Paper
+13,"Starke, J., et al.",2022,Semi-autonomous Control of Prosthetic Hands Based on Multimodal Sensing,Frontiers in Neurorobotics,Journal Article
+14,"Kalita, A. J., et al.",2025,Functional Evaluation of a Real-time EMG Controlled Prosthetic Hand,Robotica (Cambridge),Journal Article
+15,"Li, C., et al.",2024,A Tendon-Driven Actuator with Cantilever Initiated Variable Stiffness for Robotic Applications,Mechanism and Machine Theory,Journal Article
+16,"Mitsui, K., et al.",2014,Design of a Tendon-Driven Robotic Hand with an Embedded Camera,IEEE International Conference on Robotics and Automation,Conference Paper
+17,"Jara, C. A., et al.",2014,Optimal Control for Robot-Hand Manipulation of an Object,"IEEE Transactions on Systems, Man, and Cybernetics",Journal Article
+18,"Rahatuzzaman, M., et al.",2024,"Design, Fabrication, and Characterization of 3D-Printed ABS Scaffolds",Journal of Materials Science,Journal Article
+19,"Santello, M., et al.",2022,Integrating Robotics and Biology: The SoftHand Pro Development,Nature Biomedical Engineering,Journal Article
+20,"Rasnacis, A., et al.",2017,Method for Adaptation and Implementation of Agile Project Management Methodology,Procedia Computer Science,Conference Paper
+21,"Langevin, G.",2012,InMoov: Open Source 3D Printed Life-Size Robot,InMoov Project Documentation,Technical Report
+22,Arduino Foundation,2023,Arduino Uno Microcontroller: Technical Specifications and Applications,Arduino Official Documentation,Technical Documentation
+23,Bluetooth SIG,2020,HC-05 Bluetooth Module: Serial Port Communication Protocol,Bluetooth Technology Standards,Technical Standard
