@@ -1,3 +1,4 @@
+
 # **1. High-Level Data Flow**
 
 ```mermaid
@@ -41,3 +42,121 @@ F2 --> G2[Return to Idle State]
 ```
 
 ---
+
+```mermaid
+flowchart TD
+
+%% NODES
+PS[Power Supply\n6V / 7.4V Battery]
+PB[Push Button\nManual Input]
+BT[Bluetooth HC-05\nWireless Input]
+SW[Slide Switch\nMode Selector]
+ARD[Arduino Uno\nCentral Processing Unit]
+PWM[PWM Signal\nGeneration]
+DRV[Motor Driver\nCircuit]
+
+S1[Servo Motor\nThumb]
+S2[Servo Motor\nIndex]
+S3[Servo Motor\nMiddle]
+S4[Servo Motor\nRing]
+S5[Servo Motor\nLittle]
+
+HAND[3D Printed Hand\nTendon-Driven Fingers]
+LED[Status LEDs\nRed & Blue\nPosition Indicators]
+
+%% CONNECTIONS
+PS --> PB
+PS --> BT
+PS --> SW
+PS --> ARD
+
+PB --> SW
+BT --> SW
+
+SW -->|Mode Selection| ARD
+
+ARD --> PWM
+PWM --> DRV
+ARD --> DRV
+
+DRV --> S1
+DRV --> S2
+DRV --> S3
+DRV --> S4
+DRV --> S5
+
+S1 --> HAND
+S2 --> HAND
+S3 --> HAND
+S4 --> HAND
+S5 --> HAND
+
+ARD --> LED
+HAND --> LED
+
+%% COLORS
+style PS fill:#F9E79F,stroke:#000,color:#000
+style PB fill:#D6EAF8,stroke:#000
+style BT fill:#D6EAF8,stroke:#000
+style SW fill:#A9CCE3,stroke:#000
+style ARD fill:#A3E4D7,stroke:#000
+style PWM fill:#A3E4D7,stroke:#000
+style DRV fill:#A3E4D7,stroke:#000
+style S1 fill:#F5B7B1,stroke:#000
+style S2 fill:#F5B7B1,stroke:#000
+style S3 fill:#F5B7B1,stroke:#000
+style S4 fill:#F5B7B1,stroke:#000
+style S5 fill:#F5B7B1,stroke:#000
+style HAND fill:#FADBD8,stroke:#000
+style LED fill:#D6DBDF,stroke:#000
+```
+
+```mermaid
+flowchart TD
+
+PS[Power Supply 6V or 7.4V Battery]
+PB[Push Button Manual Input]
+BT[Bluetooth HC-05 Wireless Input]
+SW[Slide Switch Mode Selector]
+ARD[Arduino Uno Central Processing Unit]
+PWM[PWM Signal Generation]
+DRV[Motor Driver Circuit]
+
+S1[Servo Motor Thumb]
+S2[Servo Motor Index]
+S3[Servo Motor Middle]
+S4[Servo Motor Ring]
+S5[Servo Motor Little]
+
+HAND[3D Printed Hand Tendon-Driven Fingers]
+LED[Status LEDs Red and Blue Position Indicators]
+
+PS --> PB
+PS --> BT
+PS --> SW
+PS --> ARD
+
+PB --> SW
+BT --> SW
+
+SW --> ARD
+
+ARD --> PWM
+PWM --> DRV
+ARD --> DRV
+
+DRV --> S1
+DRV --> S2
+DRV --> S3
+DRV --> S4
+DRV --> S5
+
+S1 --> HAND
+S2 --> HAND
+S3 --> HAND
+S4 --> HAND
+S5 --> HAND
+
+ARD --> LED
+HAND --> LED
+```
